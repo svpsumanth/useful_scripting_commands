@@ -1,0 +1,50 @@
+-> Configuring Author details 
+	
+	1. git -config --global user.email "<email ID>"
+	2. git -config --global user.name "<User name>" 
+
+	These two command configure the Details of the author and will not be used to login anywhere. To verify, use, git -congig -l
+
+-> Creating a Project
+	
+	1. git init <Project Name>
+
+	This lets you create a directory with the name <Project Name> in current working directory. This will contain all the file and folders along with control files used for tracking. (.git will be hidden inside here)
+
+-> Staging the files
+	
+	1. git add . (or) git add <file_name> 
+
+	This command will prepare the files in the directory for commiting.
+
+-> Commiting the files
+
+	1. git commit -m "<Commit message>"
+
+	This command commits the staged files. -m argument allows us to commit the files with a small Description.
+
+-> Helpful commands
+	
+	1. git log			:	Allows us to view the completer timestamps of the all the commits
+	2. git show <hash id>		:	Shows the commited files/codes for that particular commit (Changes are highlighted).
+	3. git reset --hard <hash id>	:	Moves the Head to the pointed <hash id> Replacing all the files(Went back to that commit)
+	4. git reflog			:	This lets you see all the actions made even Resets. Using this we can move the head to a 							resetted commit using the same command with SHA-1 ID in the reflog.
+
+-> Remote Repositories
+
+	1. Cloning a remote git host repository 
+
+		1. git clone <Repo URL>
+		
+		This command clones the entire repo into local machine if we have the access to the repo
+
+	2. Pushing local repository to a remote host
+
+		1. git remote add origin <repo url>
+		2. git push origin master
+
+		The first command decides the destination and an example of <repo url> could be "https://github.com/svpsumanth/git_test"
+		The second command pushes everything in the current working git directory to origin (repo url). This step requires sign in 
+		-verification details and for github use personal token instead of password (this can be found in "/home/pavan/Documents/")
+
+ 

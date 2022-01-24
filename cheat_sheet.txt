@@ -1,0 +1,9 @@
+1) q!		-	Close without saving
+2) x!		-	Saving and closing the file
+3) set number	-	Displays line numbers on the left 
+4) <LineNumber>	-	Jumps to that line 
+5) $ 		-	Jumps to last line 
+6) dd(no ":")	- 	Deletes that line and move everything by a single line
+7) A		- 	Insert text at the end of the line
+8) o		-	Inserts text in next line
+

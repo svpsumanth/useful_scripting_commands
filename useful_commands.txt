@@ -1,0 +1,13 @@
+1. \documentclass[]{ }	: 	{twocolumn} can be an argument to the class
+2. \usepackage{}
+3. \begin{document} ... \end{document}
+4. \footnote
+5. \emph		: 		similar to italic but has nested capability
+6. \textit		:		Make text Italic and dont have any nested capability
+7. \section
+8. \subsection
+9. \begin{enumerate} ... \end{enumerate}
+10. \begin{itemize} ... \end{itemize}
+11. \newcommand \<name>[<no of arguments>]{<function>,<use #<number> as variables>}
+12. \includegraphics 
+13.  
